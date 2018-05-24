@@ -1,0 +1,369 @@
+*{margin:0;padding:0}
+body{
+	background-image: url(../image/bg.JPG);
+}
+header{
+	height:100px;
+	position:relative;
+}
+header>img{
+	width:200px;
+	height:50px;
+	position:absolute;
+	top:50%;
+	margin-top: -25px;
+	left:10px;
+}
+#title{
+	font-size: 20px;
+	font-weight: bold;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+#login{
+	font-size: 18px;
+	position:absolute;
+	right:20px;
+	top:20px;
+}
+#btn{
+	text-decoration: none;
+	font-size: 16px;
+	display: inline-block;
+	width:50px;
+	height:30px;
+	border-radius: 4px;
+	line-height: 30px;
+	background-color: #d6d6d6;
+	color:black;
+	text-align: center;
+	margin-left: 10px;
+}
+#btn:hover{
+	background-color: red;
+	color:white;
+}
+section{
+	border-top:2px solid #c3c3c3;
+	margin-top:30px;
+}
+#list{
+	list-style-type: none;
+	overflow: hidden;
+	margin-top: -39px;
+}
+#list>li{
+	display: inline-block;
+	width:150px;
+	height:35px;
+	float:left;
+	margin-right: -2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border:2px solid #888888;
+	cursor: pointer;
+	background-color: #ebebeb;
+	line-height: 35px;
+	text-align: center;
+}
+.item{
+	display: none;
+	margin-top: 10px;
+	overflow: auto;
+}
+.riqi{
+	position:relative;
+}
+.riqi>i{
+	height:100%;
+	position:absolute;
+	right:0;
+	top:0;
+}
+#add{
+	text-decoration: underline;
+	margin-left:20px;
+}
+.content{
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+#chaxun{
+	display: inline-block;
+	width:50px;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	background-color: #e0e0e0;
+	border-radius: 4px;
+	margin-left: 20px;
+}
+label{
+	margin-left: 10px;
+}
+#name,#phone{
+	width:100px;
+	height:20px;
+}
+#bumen{
+	height:25px;
+}
+.radion{
+	margin-right: 5px;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+#LAY_demorange_s,#LAY_demorange_e{
+	height:30px;
+	width:150px;
+}
+#st,#en{
+	font-size: 28px;
+	line-height: 30px;
+}
+.delA,.GA{
+	width:40px;
+	height:20px;
+	text-align: center;
+	line-height: 20px;
+	display: inline-block;
+	background-color: #e4e4e4;
+	border-radius: 5px;
+}
+.GA{
+	margin-left: 5px;
+}
+#personal{
+	width:100%;
+}
+#personal th{
+	background-color: #dadada;
+}
+#personal th,#personal td{
+	border:1px solid #c4c4c4;
+	text-align: center;
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+#yeme,#yeme1,#yeme2,#yeme3,#yeme4{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+#yeme a,#yeme1 a,#yeme2 a,#yeme3 a,#yeme4 a{
+	margin-left: 15px;
+	text-decoration: underline;
+}
+#buMen{
+	width: 800px;
+	margin: 20px 0 0 100px;
+	border-collapse: collapse;
+}
+#buMen th{
+	background-color:#dadada;
+}
+#buMen th ,#buMen td{
+	text-align: center;
+	border: 1px solid #C2BE9E;
+	height: 35px;
+}
+#addBuMen{
+	text-decoration: underline;
+	margin-left: 30px;
+}
+.cheX{
+	display: inline-block;
+	width:80px;
+	height:30px;
+	background-color: #dadada;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+}
+#addGongGao{
+	margin-left: 30px;
+	text-decoration: underline;
+}
+#sousuo{
+	margin-top: 15px;
+	margin-left: 100px;
+}
+#biaoti{
+	width:150px;
+	height:23px;
+	border:1px solid #c4c4c4;
+	margin-left: 30px;
+	margin-right: 20px;
+}
+#searchA{
+	display: inline-block;
+	width:50px;
+	height:25px;
+	line-height: 25px;
+	text-align: center;
+	background-color: #dadada;
+	border-radius: 5px;
+}
+#gonggao{
+	width:800px;
+	margin-left: 50px;
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+#gonggao th,#xiziT th,#diaoT th{
+	background-color: #dadada;
+}
+#gonggao th,#gonggao td,#xiziT th,#xiziT td,#diaoT th,#diaoT td{
+	border:1px solid #c4c4c4;
+	text-align: center;
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+.gsc{
+	margin-right: 10px;
+}
+.ggx,.gsc,#moneySearch,.xinUpdate,#diaoSearch,.xgbmA{
+	display: inline-block;
+	width:50px;
+	height:25px;
+	line-height: 25px;
+	text-align: center;
+	background-color: #dadada;
+	border-radius: 5px;
+}
+#moneySearch,#diaoSearch{
+	margin-left: 15px;
+}
+#item4 label,#item5 label{
+	margin-left: 15px;
+}
+#item4 .nianyue{
+	position:relative;
+}
+#name1,#name2{
+	width:80px;
+	height:23px;
+	border:1px solid #8a8a8a;
+	margin-left: 10px;
+}
+#xinziYear{
+	width:150px;
+	height:25px;
+	margin-left: 10px;
+}
+#xinzi{
+	position:absolute;
+	right:0;
+	top:0;
+	font-size: 20px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+#item4,#item5{
+	margin-bottom: 15px;
+}
+#xiziT{
+	width:1200px;
+	margin:0 auto;
+	border-collapse: collapse;
+}
+#diaoBuMen{
+	margin-left: 10px;
+	height:25px;
+	width:100px;
+}
+#diaoT .xgbm{
+	width:80px;
+	height:30px;
+}
+#diaoT{
+	width:1200px;
+	margin:0 auto;
+	border-collapse: collapse;
+}
+#diaoT th,#diaoT td{
+	width:20%;
+}
+#addNewPerson,#guanli_bumen,#gonggao_fabu{
+	width:800px;
+	height:500px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	background-color: white;
+	box-shadow: 0 0 5px red;
+	display: none;
+	transform: translate(-50%,-50%);
+}
+#addNewPerson table{
+	width:500px;
+	margin:30px auto 0;
+}
+#addNewPerson table td{
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+#addNewPerson input[type=text]{
+	width:100px;
+	height:25px;
+	border:1px solid darkcyan;
+}
+#addBumen{
+	width:80px;
+	height:25px;
+	margin-left: 10px;
+}
+#addNewPerson table input{
+	margin-left: 10px;
+}
+#addPersonA,#bumen_newA,#fabu_newA{
+	display: inline-block;
+	width:100px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: cyan;
+	position:absolute;
+	bottom:40px;
+	left:50%;
+	transform: translateX(-50%);
+}
+#addCloseA,#addCloseA1,#addCloseA2{
+	text-decoration: none;
+	font-size: 30px;
+	position:absolute;
+	right:5px;
+	top:5px;
+}
+#guanli_bumen{
+	width:500px;
+	height:200px;
+	text-align: center;
+	padding-top: 100px;
+}
+#guanli_bumen input{
+	margin-left: 15px;
+	width:100px;
+	height:30px;
+	border:1px solid darkcyan;
+}
+#gonggao_fabu{
+	padding-top:100px;
+	box-sizing: border-box;
+	text-align: center;
+}
+#fabu_title{
+	width:250px;
+	height:30px;
+	border:1px solid darkcyan;
+	margin-left: 15px;
+}
+#fabu_content{
+	width:250px;
+	height:180px;
+	margin-left: 15px;
+	border:1px solid darkcyan;
+	vertical-align: top;
+}
